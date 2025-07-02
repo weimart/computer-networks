@@ -1,0 +1,89 @@
+El modelo TCP (Protocolo de control de transmisión) proporciona pautas para la comunicación entre dispositivos y programas, asegurando la interpretación precisa de los mensajes. Ha existido por más de 30 años.
+
+Adicionalmente, consta de cuatro niveles: interfaz de red, capa de internet, capa de transporte y capa de aplicación, cada uno desempeñando una función específica para una comunicación adecuada. Ahora examinaremos las cuatro capas desde la base.
+¿Cómo funciona el modelo TCP/IP?
+
+Este modelo cuenta con 4 capas. Te las enumeramos de abajo hacia arriba:
+
+    Capa 1 (Interfaz de red)
+    Capa 2 (internet)
+    Capa 3 (Transporte)
+    Capa 4 (Aplicación)
+
+
+Digamos más sobre cada una de ellas.
+¿Cuáles son las capas del modelo TCP/IP?
+
+El modelo TCP/IP consta de cuatro capas para redes de comunicación. Cada capa describe un conjunto de directrices generales.
+Capa 1: interfaz de red
+
+La primera capa es el nivel más bajo de comunicación compuesto por pulsaciones eléctricas o transporte físico. Este protocolo no establece comunicación entre dos puntos, solo transmite en el medio físico.
+
+Tiene protocolos como:
+
+    ARP: Address Resolution Protocol. Encuentra la MAC de las IP.
+    Ethernet: tecnología tradicional para conectar dispositivos en una red LAN.
+    NDP: Neighbor Discovery Protocol. Resolución de direcciones y permite que un dispositivo se integre al entorno local (una red física).
+    L2TP: Layer 2 Tunneling Protocol. Corrige deficiencias de otros protocolos.
+
+Capa 2: internet
+
+Se encarga de comunicar dos hosts para transmitir los datos y establecer la ruta para que la información llegue al destino deseado.
+
+Tiene protocolos como:
+
+    IP: Internet Protocol. Para identificación y comunicación.
+    ICMP: Internet Control Message Protocol.
+    IPSEC: Internet Protocol security. Son varios protocolos que autentican la IP y cifran los paquetes.
+    IGMP: Internet Group Management Protocol. Multidifusión.
+
+Capa 3: transporte
+
+Se encarga de transferir archivos entre los dos hosts. Para esto, hay varios protocolos, como el protocolo “TCP”, que prioriza la fiabilidad de los datos transmitidos (sin pérdida de información en el camino).
+
+Por otro lado, el protocolo “UDP” se enfoca en la velocidad de transmisión de datos en lugar de la fiabilidad (prefiere enviar los datos lo más rápido posible, incluso si se pierde algo de información en el camino).
+
+Sus protocolos principales son: TCP y UDP.
+
+    TCP: Transmission Control Protocol. Controla la transmisión de la información.
+    DCCP: Datagram Congestion Control Protocol. Transporte de mensajes.
+    MTP: Micro Transport Protocol. Conexiones peer to peer.
+    UDP: User Datagram Protocol. Transporte mínimo de mensajes.
+    ICMP: Internet Control Message Protocol. Mensajes de error e información operativa.
+    FCP: Fibre Channel protocol. Carga el S.O y verificación.
+
+Capa 4: aplicación
+
+Ofrece a las aplicaciones, tanto de usuario como no, la capacidad de acceder a los servicios de las demás capas y define los protocolos utilizados para el intercambio de datos, como el correo electrónico (POP y SMTP), gestores de bases de datos y protocolos de transferencia de archivos (FTP).
+
+Tiene protocolos como:
+
+    FTP: File Transfer Protocol. Transferencia de archivos.
+    SSH: Secure Shell. Para conexiones seguras.
+    SMTP: Protocolo utilizado para el envío de correos electrónicos.
+    DHCP: Protocolo que asigna dinámicamente direcciones IP y otros parámetros de configuración a dispositivos en una red.
+    DNS: Domain Name System. Asigna nombres a las IP de los dominios y se encarga de su traducción.
+    RIP: Routing Information Protocol.
+    SNMP: Simple Network Management Protocol.
+    HTTP: Hypertext Transfer Protocol.
+
+Diferencia entre TCP y UDP
+
+TCP:
+
+    Es confiable.
+    Está orientado a la conexión.
+    Se espera que exista una conexión constante entre 2 computadoras.
+    Prioriza la confiabilidad sobre la rapidez.
+
+Un ejemplo claro es la transferencia de archivos.
+
+UDP:
+
+    No es confiable.
+    No está orientado a la conexión.
+    No se preocupa si los datos llegan o no.
+
+Un ejemplo que ilustra la diferencia entre TCP y UDP es el siguiente: TCP es utilizado en el correo electrónico, donde es necesario que el mensaje completo llegue; en cambio, UDP se utiliza en juegos en línea, donde la información debe llegar lo más rápido posible y no importa si se pierde parte de los datos.
+
+Aporte basado en notas de: Brandon Verdeja, Maximiliano Ovando, Mauricio Osorio y Pablo23.

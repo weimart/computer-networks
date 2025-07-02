@@ -1,0 +1,48 @@
+Las redes informáticas requieren reglas para funcionar correctamente y los protocolos de red son esenciales para evitar la pérdida de datos y garantizar su adecuada conexión.
+
+Para entender más a profunidad este concepto, te explicaremos qué son los protocolos de red y por qué son esenciales para el correcto funcionamiento de cualquier red informática.
+¿Qué son los protocolos de red?
+
+Los protocolos de red son reglas que facilitan la comunicación y transmisión de información entre dispositivos. Estos estándares establecen procedimientos y formatos para intercambiar paquetes de datos de manera confiable, rápida y sencilla.
+Tipos de protocolos de red
+
+A continuación te presentamos algunos de los protocolos de red más comunes, clasificados según las capas del Modelo OSI.
+1. Capa física
+
+    USB
+    Ethernet
+    DSL
+    Etherloop
+    Infrarrojo
+    Frame Relay
+    SDH
+    SONET
+
+2. Capa de aplicación
+
+    HTTP
+    FTP
+    SMTP
+    POP3
+    DNS
+
+3. Capa de transporte
+
+    TCP
+    UDP
+
+4. Capa de red
+
+    IP
+    ICMP
+    ARP
+
+5. Capa de enlace de datos
+
+    Ethernet
+    wifi
+    Bluetooth
+
+En resumen, la conectividad y las redes son fundamentales en el mundo moderno. Existen diversas formas de conectividad, desde los tradicionales cables USB y Ethernet hasta los más avanzados protocolos inalámbricos como el infrarrojo y el Etherloop.
+
+Todos estos tipos de conectividad nos permiten acceder a la información y conectarnos con otros dispositivos de manera rápida y eficiente, por eso es importante seguir innovando y mejorando estas tecnologías para mantenernos conectados y avanzar hacia un futuro más conectado y colaborativo.

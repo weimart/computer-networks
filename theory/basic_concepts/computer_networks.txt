@@ -1,0 +1,70 @@
+Una red de computadoras es un conjunto de dispositivos interconectados mediante una variedad de tecnologías, como cables, señales, ondas y otros medios, para el intercambio de datos y compartir información, como archivos o recursos como impresoras o CD-ROM.
+
+Esta red informática, gracias a su interconexión de diferentes tipos de computadoras y tecnologías, permite diversas funciones en internet, desde tareas simples como enviar correos electrónicos hasta otras más complejas.
+
+En el núcleo de esta red se encuentran los servidores, que facilitan las comunicaciones y permiten el intercambio de información entre las máquinas conectadas.
+Medios de transmisión de las redes de computadoras
+image (16).png
+
+Podemos comunicarnos mediante satélites, fibra óptica, cables coaxiales, microondas, infrarrojo y bluetooth (ondas de radio) en esta red de ordenadores. Veamos algunos ejemplos en esta red y sus componentes.
+
+    Los satélites envían señales en la tierra o espacio.
+    Los cables de cobre transmiten señales eléctricas en la red.
+    La fibra óptica transmite señales de luz en la red.
+    Los cables coaxiales transmiten señales de alta frecuencia en la red.
+    Las microondas transmiten señales de alta frecuencia en la atmósfera.
+    El cable Infrarrojo transmite señales invisibles en el aire.
+    El Bluetooth usa ondas de radio para comunicarse entre dispositivos cercanos.
+
+Rangos de frecuencia de transmisión de una red
+image (17).png
+
+Los rangos de frecuencia de transmisión de una red se refieren a las diferentes bandas de Hz en las que operan las ondas electromagnéticas para transmitir datos e información. Estas ondas viajan a la velocidad de la luz y se miden en Hertz (Hz), que representa la cantidad de ciclos realizados en un segundo.
+
+Cada rango de frecuencia se asocia con distintas tecnologías de comunicación, como el Wi-Fi, que utiliza frecuencias de 2.4 GHz y 5 GHz para la transmisión inalámbrica de datos. Considera los rangos de frecuencia adecuados para cada tipo de red, ya que esto afecta la velocidad y la cobertura de la transmisión de datos.
+Elementos básicos de las redes de computadoras
+
+Revisemos algunos de los componentes clave del dispositivo de red para la transmisión de datos.
+
+    Servidor: Proporciona servicios como archivos, correo electrónico y web, facilitando la distribución de recursos en la red. Rambién son dispositivos de red. También este medio es conocido como nodos de la red.
+    Software: Incluye el sistema operativo, controladores de dispositivos y aplicaciones de red, permitiendo la comunicación y el acceso a servicios específicos para los usuarios.
+    Hardware: Compuesto por routers, switches y hubs, conecta los dispositivos de la red y garantiza una transmisión eficiente de datos.
+    Medios de transmisión: Emplea cables e inalámbricos para enviar y recibir datos entre dispositivos, facilitando la comunicación y el intercambio de datos.
+    Tarjeta de red: también conocida como adaptador de red, es un componente esencial del hardware de una computadora que permite la conexión a una red.
+    Es importante destacar que cada tarjeta de red recibe un identificador exclusivo por parte del fabricante, llamado dirección MAC (Media Access Control), compuesto por 48 bits (6 bytes).
+
+Ventajas de las redes de computadoras en datos
+
+Las redes informáticas ofrecen una amplia gama de protocolos y ventajas que mejoran de forma significativamente la eficiencia y la colaboración en diversos entornos de un computadora dispositivo. Algunas de las principales ventajas son:
+
+    Compartir recursos: Las redes permiten compartir recursos como impresoras, escáneres y unidades de almacenamiento, lo que reduce costos y facilita el acceso a ordenadores y datos compartidos.
+    Comunicación efectiva: Facilitan la comunicación entre usuarios a través de herramientas como correo electrónico, mensajería instantánea y videoconferencias, lo que agiliza la toma de decisiones y el trabajo en equipo.
+    Centralización de datos: Las redes permiten almacenar y gestionar datos en servidores centrales, asegurando la integridad y la disponibilidad de los datos para todos los usuarios autorizados.
+    Acceso remoto: Los usuarios pueden acceder a la red y a sus recursos desde ubicaciones remotas, lo que fomenta la movilidad y la flexibilidad en el trabajo.
+    Escalabilidad: Las redes son escalables, lo que significa que pueden crecer y adaptarse según las necesidades de la organización, sin requerir cambios drásticos en la infraestructura.
+
+Desventajas de una red de computadoras
+
+El aspecto negativo de una red de computadoras está vinculado cada vez más con las amenazas cibernéticas que afectan la privacidad de la información y pueden dar lugar a acciones peligrosas.
+
+    Seguridad: Las redes de computadoras pueden ser vulnerables a ataques y brechas de seguridad, lo que podría comprometer la privacidad y la integridad de los datos almacenados y transmitidos.
+    Costo inicial: La implementación de una red de computadoras puede requerir una inversión inicial significativa en infraestructura, equipos y personal capacitado, lo que puede representar un desafío financiero para algunas organizaciones.
+    Complejidad de gestión: A medida que la red crece en tamaño y complejidad, la administración y el mantenimiento pueden volverse más complicados, lo que requiere recursos adicionales y experiencia técnica.
+    Dependencia de la conectividad: La eficiencia de una red de computadoras depende en gran medida de la disponibilidad constante de una conexión a internet o a la red, lo que podría generar problemas si la conectividad se ve afectada por fallos técnicos o cortes en el servicio.
+    Riesgo de sobrecarga: Con el aumento del tráfico de datos y la cantidad de dispositivos conectados, existe el riesgo de que la red se sobrecargue de la red, lo que puede ralentizar la velocidad de transmisión y afectar el rendimiento general.
+
+Ejemplos de red de computadoras
+
+Existen diversos tipos de redes de servidores y computadoras que se adaptan a distintos escenarios y necesidades, con sus respectivas funciones. Algunos ejemplos comunes son:
+
+    Redes locales (LAN): O red de área local, son un tipo de red que cubre áreas pequeñas, como una oficina o una casa, y conectan dispositivos cercanos entre sí. Se utiliza para compartir recursos y permitir la comunicación interna.
+    Redes de área extensa (WAN): Estas redes abarcan grandes distancias, como ciudades o incluso países, y conectan múltiples redes locales a través de tecnologías como Internet y líneas dedicadas.
+    Redes inalámbricas (Wi-Fi): Emplean ondas de radio para transmitir datos sin la necesidad de cables, proporcionando conectividad flexible y accesible en espacios públicos, hogares y empresas.
+    Redes metropolitanas (MAN): o también conocida red de área metropolitana o red de área amplia, cubre una ciudad o una región geográfica, brindando servicios de conectividad a instituciones y empresas dentro de esa área. Tiene varaciones como las llamadas CAN (campus area network)
+    Redes de almacenamiento (SAN): Estas redes están diseñadas específicamente para facilitar el acceso y la gestión de dispositivos de almacenamiento, como unidades de disco y sistemas de copias de seguridad.
+
+    Repasa: qué es el modelo osi y modelo tcp ip
+
+Ahora tienes un entendimiento claro sobre el funcionamiento y los componentes de los dispositivos de red en el área de cómputo. Comprendes la funcionalidad e importancia de una red de computadoras y su estructura.
+
+Estas conexiones fluidas y dinámicas permiten que una red de computadora funcione eficientemente y ofrezca una amplia gama de posibilidades a los usuarios desde su máquina.

@@ -1,0 +1,22 @@
+Los bits y los bytes son unidades de información en el sistema binario que permiten la comunicación entre dispositivos. Estos datos se representan principalmente por los números de 0 y 1 y cada posición es una potencia de 2.
+
+Estos conceptos son la base de la tecnología digital y la emplean en todo tipo de dispositivos electrónicos, desde computadoras hasta teléfonos inteligentes. Además, la capacidad de procesamiento de información de una computadora se mide en bytes, y cuanto más bytes tenga una computadora, más información podrá manejar.
+¿Cuáles son los valores de los bits en un byte?
+
+De nada nos sirve saber cuál es el bit más significativo si no conocemos el valor de cada uno de ellos. Como dijimos anteriormente, cada bit solo puede tener dos valores, 1 o 0 y la forma de contar será a través de potencias de dos.
+
+Cómo interpreta la computadora los bytes
+
+Los bytes son interpretados por la computadora de diferentes maneras, dependiendo del contexto en el que se empleen. Por ejemplo, en el caso de un archivo de texto, cada byte representa un carácter y en el caso de una imagen, cada byte representa un pixel y su color correspondiente.
+
+En cambio, en el caso de una orden específica, el byte se interpreta como una instrucción para la computadora. Además, los bytes son la base para la creación de representaciones globales de caracteres. Con la creación del protocolo UTF-8 y UTF-16, se permitió que todas las personas en todo el mundo usen la misma lista de caracteres, incluyendo emojis.
+
+Los computadores saben que cada 8 bits deben hacer una pausa porque los bytes siempre equivalen a 8 bits. Existen bytes que son especiales que pueden significar órdenes específicas para el ordenador, como pedir que arranque, o que ejecute una operación matemática.
+
+    Además, una imagen realmente es una grilla de píxeles y cada pixel representa a un byte cuyo número es igual a su color. Los emojis se añadieron a la tabla ASCII y cada emoji equivale a 2 bytes.
+
+Representaciones globales con bytes
+
+Cuando la computación se volvió accesible para todos, surgieron problemas de compatibilidad de idiomas debido a los caracteres diferentes en cada país. Para solucionarlos, se creó el protocolo UTF-8, que permite que todo el mundo utilice la misma lista de caracteres. Sin embargo, había miles de caracteres que no cabían en 8 bits, por lo que se generó UTF-16 con 2 bytes extra. Esto permitió la creación de emojis como 😉.
+
+¡Genial! Con estos conceptos básicos, ya tienes un conocimiento elemental acerca de los bits y los bytes. En la siguiente clase, veremos cómo se clasifican las redes computacionales.

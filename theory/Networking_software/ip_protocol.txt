@@ -1,0 +1,41 @@
+IP significa Internet Protocol. Es la manera en la que las computadoras se identifican en internet.
+¿Qué es protocolo IP?
+
+El protocolo IP se encarga principalmente del ruteo. Es la manera en la que se va a transmitir la información o los caminos que van a tomar.
+
+    Este protocolo tiene ciertos rangos para asignar las IP
+    Dentro de tu red también puedes establecer una mascara de sub-red, que es una manera de establecer límites entre los hosts que se pueden tomar.
+
+Estructura de una dirección IP
+
+Una IP(IPv4) está compuesta de 4 octetos. Los primeros 3 octetos de una IP(IPv4) representan la dirección de red.
+
+La siguiente es una descripción gráfica de los componentes de una dirección IP:
+estructura IP.png
+Ejemplo de una dirección IP
+
+Las IP en la versión IPv4 están conformadas por 4 secciones de 1 byte.
+
+Cada byte está compuesto por 8 bits.
+
+El valor de cada sección está relacionado a los bits positivos o verdaderos.
+
+Ej. 10100100 = 1 + 0 + 1 + 0 + 0 + 1 + 0 + 0
+
+Se suma las posiciones contando de derecha a izquerda.donde la posición más a la derecha, representa el exponencial 0 del número 2. Y el número más a la izquierda será el exponencial 7
+
+Num. Binario 1 0 1 0 0 1 0 0
+
+Posición: 8 7 6 5 4 3 2 1
+
+Indice o Exp: 7 6 5 4 3 2 1 0
+
+Calcular los que tengan 1: + - + - - + - -
+
+Se toma el 2 porque hablamos del sistema de numeración binaria. Sólo contiene 2 dígitos, los cuales son 0,1
+
+Entonces para el ejemplo anterior tenemos: Ej. 10100100 = 1 + 0 + 1 + 0 + 0 + 1 + 0 + 0
+
+Leyendo desde la derecha tomamos en cuenta los valores 1:Posición 3, índice 2, Valor= 4 (2 elevado a la 2 , 2^2 )Posición 6, índice 5, Valor= 32 (2 elevado a la 5, 2^5)Posición 8, índice 7, Valor= 128 (2 elevado a la 7, 2^7)
+
+Valor en sistema decimal de 10100100 = 164

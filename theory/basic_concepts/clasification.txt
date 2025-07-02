@@ -1,0 +1,74 @@
+Las redes computacionales o redes de computadoras tienen 2 divisiones principales:
+
+    Por la tecnología de transmisión
+    Por la escala o tamaño a la que pueda llegar a tener
+
+1. Tecnología de transmisión
+
+Para la tecnología de transmisión existen 3 maneras de clasificarlo:
+
+    Conexiones 1 a 1 (Unicast)
+    Conexiones 1 a varios (Multicast)
+    Conexiones 1 a todos (Broadcast)
+
+Unicast (Enlaces punto a punto)
+
+Los enlaces punto a punto son distintos porque se llevan de una máquina hacia otra máquina.
+
+    Conecta pares individuales de máquinas
+    Puede visitar máquinas intermedias entre su origen y destino
+
+Multicast (Uno a varios)
+
+Los enlaces multicast consiste en conexiones de uno a varios.
+
+    Algunos sistemas permiten enviar sólo a un subconjunto
+
+Broadcast (enlaces de difusión)
+
+Los enlaces de difusión o broadcast es cuando todas las máquinas en la red comparten el canal de comunicación.
+
+    Los paquetes que envía una máquina la reciben todas las demás
+    Se usa un campo verificador para saber a quién pertenece o si enviar a todos los destinos
+
+2. Clasificación por escala (PAN, LAN, WAN, MAN)
+
+En esta clasificación se habla del tamaño de las redes.
+PAN:
+
+Significa Personal Area Network. Son redes de uso personal o pequeñas. Ejemplos puede ser; celular, smartwatch, audífonos.
+LAN:
+
+Significa Local Area Network. Son redes de área local y se caracteriza por ser no tan grande como una red de área metropolitana. Además, es una red que está en un solo espacio que no conecta puntos muy lejos. Ejemplos de esto son: casa, escuela, oficina.
+MAN:
+
+Significa Metropolitan Area Network. Estas redes abarcan toda una ciudad o espacio entre locales.
+WAN:
+
+Significa Wide Area Network. Red de área amplia (países o zonas similarmente amplias)
+tipos de redes de computadoras.png
+Cuadro de distancias y lugar de las redes computacionales
+
+De acuerdo a las distancias podemos clasificar cada una de las anteriores redes en un cuadro que nos permite entender la distancia y el lugar de los tipos de redes.
+Distancia 	Lugar
+1 M 	1 m2
+10 M 	casa
+100 M 	escuela
+1 KM 	edificio
+10 KM 	ciudad
+100 KM 	país
+100 KM 	continente
+10000 KM 	planeta
+
+También existen las versiones inalámbricas de estas redes anteriores como:
+
+WPAN: Wireless Personal Area Network
+
+WLAN: Wireless Local Area Network
+
+WMAN: Wireless Metropolitan Access Network
+
+WWAN: Wireless Wide Area Network
+
+    Disclaimer: en esta clase se hace mención a WAN como Wireless Area Network, sin embargo debería ser Wide Area Network. Te invitamos también a descubrir qué son las redes empresariales.
+

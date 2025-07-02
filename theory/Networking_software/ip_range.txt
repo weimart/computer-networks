@@ -1,0 +1,72 @@
+Recuerda que no puedes elegir las IP libremente, ya que existe un organismo regulador global llamado ICANN encargado de supervisar su uso.
+¿Cómo se asignan las direcciones IP?
+
+Hay dos organizaciones que asignan direcciones IP: El ICANN es el organismo que regula el uso global de las IP, y la IANA se encarga de su asignación.
+¿Qué rangos de asignación existen?
+
+Hay distintas clases de direcciones IP:
+
+    Clase A (redes grandes)
+    Clase B (redes medianas)
+    Clase C (redes pequeñas)
+    Clase D (multicast)
+    Clase E (investigación)
+
+El uso determina la clase de IP que se utilizará.
+Tabla de las clases para asignación de dirección IP
+| CLASE | DIRECCIONES DISPONIBLES      | CANTIDAD DE REDES | CANTIDAD DE HOSTS | APLICACIÓN         |
+|-------|-------------------------------|--------------------|--------------------|---------------------|
+| A     | 0.0.0.0       - 127.255.255.255 | 128*               | 16,777,214         | Redes grandes       |
+| B     | 128.0.0.0     - 191.255.255.255 | 16,384             | 65,534             | Redes medianas      |
+| C     | 192.0.0.0     - 223.255.255.255 | 2,097,152          | 254                | Redes pequeñas      |
+| D     | 224.0.0.0     - 239.255.255.255 | no aplica          | no aplica          | Multicast           |
+| E     | 240.0.0.0     - 255.255.255.255 | no aplica          | no aplica          | Investigación       |
+
+* El intervalo 127.0.0.0 a 127.255.255.255 está reservado como dirección loopback y no se utiliza.
+
+¿Cómo funcionan las direcciones IP y las máscaras subred?
+
+Las direcciones IP nos permiten identificar hosts o dispositivos conectados a internet.He aquí una dirección IPv4 de ejemplo:
+
+192.168.22.87
+
+También tenemos máscaras de subred las cuáles sirven para conocer nuestra dirección de red y las direcciones IP disponibles en esa red (puesto que son limitadas).He aquí una máscara de subred típica para redes LAN (usualmente redes de hogar):
+
+255.255.255.0
+
+Puedes conocer tu dirección IP y máscara de subred con los siguientes comandos:
+
+WIndows
+
+ipconfig
+
+MacOS/Linux
+
+ifconfig
+
+La máscara de subred
+
+La máscara de subred al igual que una dirección IPv4 tiene 4 octetos o bytes y dependiendo de la clase de la red pueden ser de la siguiente manera:
+
+255.255.0.0
+255.255.255.252
+255.255.224.0
+...
+
+El ejemplo más común para redes LAN es la 255.255.255.0 y se puede obtener la dirección de red (esta es otorgada por el ISP o Internet Service Provider cuando contratas el servicio de internet) de la siguiente manera:
+
+    Se convierten en binario cada octeto de la dirección IP y las máscara de subred:
+
+11000000.10101000.00010110.01010111 --> 192.168.22.87
+11111111.11111111.11111111.00000000 --> 255.255.255.0
+
+    Se compara cada bit con su bit correspondiente de tal manera que 1 y 1 = 1 y 1 y 0 = 0
+
+11000000.10101000.00010110.01010111 --> 192.168.22.87
+11111111.11111111.11111111.00000000 --> 255.255.255.0
+-------------------------------------------------------------
+11000000.10101000.00010110.00000000 --> 192.168.22.0
+
+Los primeros 3 octetos de la dirección IP representan la dirección de red y los últimos representan la dirección del dispositivo conectado. Es similar a una dirección en la que la calle es la dirección de red y el número de casa es la dirección del dispositivo. La máscara de subred tiene los primeros 3 octetos llenos (255.255.255) porque la dirección de red no cambia, y el último octeto vacío (.0) puede tener hasta 256 direcciones de dispositivos.
+
+Sin embargo, hay 2 direcciones reservadas: la dirección de red (192.168.22.0) y la dirección de broadcast (192.168.22.255). Esto deja un rango de 254 direcciones disponibles (192.168.22.1 - 192.168.22.254).
